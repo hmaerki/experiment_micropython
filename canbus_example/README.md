@@ -1,4 +1,4 @@
-# Can-Demo-App
+# CAN-bus example application
 
 # How it works
 Two micropython boards are connected via a CAN bus.
@@ -26,10 +26,14 @@ Now listening on these CAN-id's:  (122, 123, 124, 125)
 received: b'off'
 received: b'on'
 ```
+Note, that there is a `>>>` before `received: b'on'`. This indicates, that `import canbus_receiver_interrupt` returned and the command prompt is active again. But the interrupt handler is still active in the backgroud.
 
 # Implementation
-It is about the simples program to demonstrate CAN-bus communication.
-There are two receiver: `canbus_receiver_polling.py` is polling in the main-loop. `canbus_receiver_interrupt.py` gives the main-loop free but a interrupts service is called whenever a CAN-telegram arrives.
+It is about the simplest program to demonstrate CAN-bus communication.
+
+There are two implementations of the receiver:
+ - `canbus_receiver_polling.py` is polling in the main-loop.
+ - `canbus_receiver_interrupt.py` gives the control back to the command prompt but a interrupts service is called whenever a CAN-telegram arrives.
 
 # Baud-Rate-Table
 The settings for the baudrates may be evaluated by the following script.
