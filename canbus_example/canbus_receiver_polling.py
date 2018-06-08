@@ -2,7 +2,6 @@
 
 from pyb import CAN
 from pyb import LED
-import micropython
 
 ledBlue = LED(1)
 
