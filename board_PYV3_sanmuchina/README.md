@@ -25,7 +25,7 @@ Reset | `RST` | `K1`
 User | `USR` | `K2`
 
 ### Pin assignement
-See (example_pins/readme.md)
+See [example_pins/readme.md](example_pins/readme.md)
 
 ### This firmware should work
 Pick `Firmware suitable for hand-made PYBv3 boards` on http://micropython.org/download
