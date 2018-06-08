@@ -5,9 +5,9 @@
 - SM1432F405V0.2_20170106
 - USD 17
 
-![Overview](raw/aliexpress_images/overview.jpg)
-![Overview](raw/aliexpress_images/top.jpg)
-![Overview](raw/aliexpress_images/bottom.jpg)
+![Overview](aliexpress_images/overview.jpg)
+![Top](aliexpress_images/top.jpg)
+![Bottom](aliexpress_images/bottom.jpg)
 
 ## My rating
 I like the board for these reasons
