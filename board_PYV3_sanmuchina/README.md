@@ -12,14 +12,17 @@ I got a micropython board from Aliexpress and was impressed of the quality of th
 
 ## My rating of this board
 I like the board for these reasons
-- The board seems to be exactly 
-- Physically big: Pin names are readable
-- All I tests worked as it should.
+- The board seems to be exactly PyBoard v3
+- Physically big: Pin names are readable. Plenty of room for stackable header.
+- All I tested worked as expected.
 - Cheap. Cheap delivery.
 
 Cons
 - It took me some while to find out what I collected in `Good to know`.
+
 ## Good to know
+### This is a PyBoard v3
+All what applies to PyBoard v3 applies to this board. The physical layout is different but electrically equals. Therefore the PyBoard v3 Firmware and the Python examples run on this board.
 ### Buttons
 Name | Pyboard | sanmuchina
 -|-|-
@@ -30,7 +33,7 @@ User | `USR` | `K2`
 See [example_pins/readme.md](example_pins/readme.md)
 
 ### This firmware should work
-Pick `Firmware suitable for hand-made PYBv3 boards` on http://micropython.org/download
+Pick *Firmware suitable for hand-made PYBv3 boards* on http://micropython.org/download
 
 ### Assembly/Pinout/Schemata for PyBoard v3
 https://github.com/micropython/pyboard/blob/master/assembly/assembly.pdf
