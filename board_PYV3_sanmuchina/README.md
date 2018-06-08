@@ -1,4 +1,5 @@
 # Micropython PyBoard v3 - sanmuchina.com
+I got a micropython board from Aliexpress and was impressed of the quality of the board. On this page I share all what may be helful for you to use this board. The micropython project is *outstanding*. Buy such a board an have fun!
 
 ## Board from Aliexpress
 - sanmuchina.com
@@ -9,8 +10,9 @@
 ![Top](aliexpress_images/top.jpg)
 ![Bottom](aliexpress_images/bottom.jpg)
 
-## My rating
+## My rating of this board
 I like the board for these reasons
+- The board seems to be exactly 
 - Physically big: Pin names are readable
 - All I tests worked as it should.
 - Cheap. Cheap delivery.
@@ -29,6 +31,15 @@ See [example_pins/readme.md](example_pins/readme.md)
 
 ### This firmware should work
 Pick `Firmware suitable for hand-made PYBv3 boards` on http://micropython.org/download
+
+### Assembly/Pinout/Schemata for PyBoard v3
+https://github.com/micropython/pyboard/blob/master/assembly/assembly.pdf
+https://github.com/micropython/pyboard/blob/master/pinout/pybv3/pinout.png
+https://raw.githubusercontent.com/micropython/pyboard/master/schem.png
+
+### Eagle and Gerber
+https://github.com/micropython/pyboard/tree/master/gerber
+https://github.com/micropython/pyboard/tree/master/eagle
 
 # Compile and flash the firmware
 # Compile
