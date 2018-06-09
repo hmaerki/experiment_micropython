@@ -1,4 +1,4 @@
-# Micropython PyBoard v3 - sanmuchina.com
+# Micropython PyBoard v3 (compatible) - sanmuchina.com
 I got a micropython board from Aliexpress and was impressed of the quality of the board. On this page I share all what may be helful for you to use this board. The micropython project is *outstanding*. Buy such a board an have fun!
 
 ## Board from Aliexpress
@@ -12,7 +12,7 @@ I got a micropython board from Aliexpress and was impressed of the quality of th
 
 ## My rating of this board
 I like the board for these reasons
-- The board seems to be exactly PyBoard v3
+- The board seems to be PyBoard v3 compatible.
 - Physically big: Pin names are readable. Plenty of room for stackable header.
 - All I tested worked as expected.
 - Cheap. Cheap delivery.

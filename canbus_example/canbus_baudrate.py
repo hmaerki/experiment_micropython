@@ -1,6 +1,6 @@
 # https://github.com/hmaerki/micropython/tree/master/canbus_example
 import uos
-print('This is a %s version %s. %s' % (uos.uname().sysname, uos.uname().version, uos.uname().machine))
+print('This is a %s v%s. %s.' % (uos.uname().sysname, uos.uname().release, uos.uname().machine))
 
 import pyb
 
