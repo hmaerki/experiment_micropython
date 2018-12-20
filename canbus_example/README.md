@@ -62,7 +62,7 @@ This is a pyboard version v1.9.4 on 2018-06-03. PYBv3 with STM32F405RG
 
 
 # Schematic
-You need two external CAN-transceivers (one for the sender and one for the receiver board). I used [SN65HVD23 from TI](http://www.ti.com/lit/ds/symlink/sn65hvd230.pdf).
+You need two external CAN-transceivers (one for the sender and one for the receiver board). I used [SN65HVD230 from TI](http://www.ti.com/lit/ds/symlink/sn65hvd230.pdf).
 
 ![CAN tranceiver](schematic/CAN_transceiver_schematic.png)
 
